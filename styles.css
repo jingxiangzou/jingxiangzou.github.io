@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #50b3a2;
+    background-color: #CC0000; /* BU Red */
     color: #ffffff;
     text-align: center;
     padding: 1rem 0;
@@ -52,18 +52,26 @@ h1, h2 {
 }
 
 h2 {
-    border-bottom: 2px solid #50b3a2;
+    border-bottom: 2px solid #CC0000; /* BU Red */
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
 
 a {
-    color: #50b3a2;
+    color: #CC0000; /* BU Red */
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+.profile-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+    float: left;
 }
 
 footer {
@@ -73,4 +81,3 @@ footer {
     color: #ffffff;
     margin-top: 20px;
 }
-
