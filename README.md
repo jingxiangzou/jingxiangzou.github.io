@@ -1,6 +1,6 @@
 # Jingxiang Zou
-## working in financial engineering and quantitative finance 
-## these are my contact 
+working in financial engineering and quantitative finance 
+## contacts 
 
 jxzou@bu.edu 
 
