@@ -1,0 +1,13 @@
+a more complex model captures more complexity in the ture model but also captures more noise in the data which
+results in larger variance 
+
+pricking the right features is the entirely context dependent 
+
+we can also chech the out side of sample of the current estimator 
+if the out of sample performance is very crazy, it might indicate over fitting in the original model 
+
+if we use the train-test splitting we overestimate the geenralization error
+
+k-fold cross validation precludes this problem 
+
+however, of the training sets are almost identical, it can leads to high variance 
