@@ -116,3 +116,22 @@ footer {
     border-top: 2px solid #CC0000; /* Boston University Red accent */
     padding-top: 20px;
 }
+
+.research-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.research-list li {
+    margin-bottom: 15px;
+}
+
+.research-list a {
+    text-decoration: none;
+    color: #CE0F69; /* Boston University Red */
+}
+
+.research-list a:hover {
+    text-decoration: underline;
+}
+
