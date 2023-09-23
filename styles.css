@@ -29,24 +29,33 @@ header {
     margin-bottom: 20px;
 }
 
-nav ul {
-    list-style: none;
+/* Navigation styles */
+.nav-list {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    display: flex; /* Aligns the list items in a row */
+    justify-content: center; /* Centers the items horizontally */
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+.nav-link {
+    text-decoration: none; /* Removes the underline */
+    color: #333; /* A dark gray color, you can adjust as needed */
+    margin: 0 15px; /* Adds some spacing between the links */
+    padding: 10px 15px; /* Adds some padding for a bigger clickable area */
+    border-radius: 5px; /* Rounds the corners a bit for aesthetics */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
-nav a {
-    text-decoration: none;
-    color: #ffffff;
-    transition: color 0.3s;
+.nav-link:hover {
+    background-color: #CE0F69; /* Boston University Red background on hover */
+    color: #fff; /* White text color on hover */
 }
 
-nav a:hover {
-    color: #f8f8f8;
+.nav-link:active {
+    transform: scale(0.95); /* Slightly shrinks the link when it's clicked (pressed state) */
 }
+
+
 
 .content-wrapper {
     display: flex;
